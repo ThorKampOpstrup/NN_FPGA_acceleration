@@ -1,0 +1,5 @@
+CFLAGS = `pkg-config --cflags opencv`
+LIBS = `pkg-config --libs opencv`
+
+nn_test : nn_test.cpp
+	g++  $(CFLAGS) $(LIBS) -o nn_test nn_test.cpp

@@ -1,0 +1,14 @@
+Pose: 0
+False labes: 5
+Error rate 0.934579%
+Avg duration: 4.17967ns
+
+Pose: 1
+False labes: 18
+Error rate 3.36449%
+Avg duration: 3.73308ns
+
+Pose: 2
+False labes: 5
+Error rate 0.934579%
+Avg duration: 4.57272ns

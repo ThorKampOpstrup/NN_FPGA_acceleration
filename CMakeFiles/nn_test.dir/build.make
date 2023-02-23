@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mp4d/git/BRAM-uio-driver
+CMAKE_SOURCE_DIR = /home/mp4d/git/NN_FPGA_acceleration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mp4d/git/BRAM-uio-driver
+CMAKE_BINARY_DIR = /home/mp4d/git/NN_FPGA_acceleration
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nn_test.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/nn_test.dir/flags.make
 
 CMakeFiles/nn_test.dir/nn_test.cpp.o: CMakeFiles/nn_test.dir/flags.make
 CMakeFiles/nn_test.dir/nn_test.cpp.o: nn_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mp4d/git/BRAM-uio-driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nn_test.dir/nn_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nn_test.dir/nn_test.cpp.o -c /home/mp4d/git/BRAM-uio-driver/nn_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mp4d/git/NN_FPGA_acceleration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nn_test.dir/nn_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nn_test.dir/nn_test.cpp.o -c /home/mp4d/git/NN_FPGA_acceleration/nn_test.cpp
 
 CMakeFiles/nn_test.dir/nn_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nn_test.dir/nn_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mp4d/git/BRAM-uio-driver/nn_test.cpp > CMakeFiles/nn_test.dir/nn_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mp4d/git/NN_FPGA_acceleration/nn_test.cpp > CMakeFiles/nn_test.dir/nn_test.cpp.i
 
 CMakeFiles/nn_test.dir/nn_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nn_test.dir/nn_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mp4d/git/BRAM-uio-driver/nn_test.cpp -o CMakeFiles/nn_test.dir/nn_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mp4d/git/NN_FPGA_acceleration/nn_test.cpp -o CMakeFiles/nn_test.dir/nn_test.cpp.s
 
 CMakeFiles/nn_test.dir/src/bram_uio.cpp.o: CMakeFiles/nn_test.dir/flags.make
 CMakeFiles/nn_test.dir/src/bram_uio.cpp.o: src/bram_uio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mp4d/git/BRAM-uio-driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nn_test.dir/src/bram_uio.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nn_test.dir/src/bram_uio.cpp.o -c /home/mp4d/git/BRAM-uio-driver/src/bram_uio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mp4d/git/NN_FPGA_acceleration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nn_test.dir/src/bram_uio.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nn_test.dir/src/bram_uio.cpp.o -c /home/mp4d/git/NN_FPGA_acceleration/src/bram_uio.cpp
 
 CMakeFiles/nn_test.dir/src/bram_uio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nn_test.dir/src/bram_uio.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mp4d/git/BRAM-uio-driver/src/bram_uio.cpp > CMakeFiles/nn_test.dir/src/bram_uio.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mp4d/git/NN_FPGA_acceleration/src/bram_uio.cpp > CMakeFiles/nn_test.dir/src/bram_uio.cpp.i
 
 CMakeFiles/nn_test.dir/src/bram_uio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nn_test.dir/src/bram_uio.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mp4d/git/BRAM-uio-driver/src/bram_uio.cpp -o CMakeFiles/nn_test.dir/src/bram_uio.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mp4d/git/NN_FPGA_acceleration/src/bram_uio.cpp -o CMakeFiles/nn_test.dir/src/bram_uio.cpp.s
 
 # Object files for target nn_test
 nn_test_OBJECTS = \
@@ -143,7 +143,7 @@ nn_test: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.2.0
 nn_test: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.2.0
 nn_test: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.2.0
 nn_test: CMakeFiles/nn_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mp4d/git/BRAM-uio-driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable nn_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mp4d/git/NN_FPGA_acceleration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable nn_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nn_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/nn_test.dir/clean:
 .PHONY : CMakeFiles/nn_test.dir/clean
 
 CMakeFiles/nn_test.dir/depend:
-	cd /home/mp4d/git/BRAM-uio-driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mp4d/git/BRAM-uio-driver /home/mp4d/git/BRAM-uio-driver /home/mp4d/git/BRAM-uio-driver /home/mp4d/git/BRAM-uio-driver /home/mp4d/git/BRAM-uio-driver/CMakeFiles/nn_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mp4d/git/NN_FPGA_acceleration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mp4d/git/NN_FPGA_acceleration /home/mp4d/git/NN_FPGA_acceleration /home/mp4d/git/NN_FPGA_acceleration /home/mp4d/git/NN_FPGA_acceleration /home/mp4d/git/NN_FPGA_acceleration/CMakeFiles/nn_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nn_test.dir/depend
 

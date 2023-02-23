@@ -93,8 +93,9 @@ int main(int argc, char *argv[])
         {
             open_image(folder[i], j, img);
             scale_and_normalize(img, img);
-            pic2bram(img, bram);
             auto t1 = std::chrono::high_resolution_clock::now();
+            pic2bram(img, bram);
+            usleep(500000);
             while (bram[128] == 4)
                 ;
 
@@ -102,10 +103,10 @@ int main(int argc, char *argv[])
             auto ms_int = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1);
             std::chrono::duration<double, std::milli> ms_double = t2 - t1;
             time_sum[i]+=ms_double.count();
-            // std::cout << "true label: "<< i <<" NN: " << bram[128];
+            std::cout << "true label: "<< i <<" NN: " << bram[128] << std::endl;
             // std::cout <<"   : "<< ms_double.count() << "ms " << std::endl;
             if(bram[128]!=i){
-                // std::cout << "!!!!false lable!!!!!" << std::endl;
+                std::cout << "!!!!false lable!!!!!" << std::endl;
                 false_labels[i]++;
             }
         }

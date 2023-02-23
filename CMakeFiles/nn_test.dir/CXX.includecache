@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/mp4d/git/BRAM-uio-driver/nn_test.cpp
+/home/mp4d/git/NN_FPGA_acceleration/nn_test.cpp
 src/bram_uio.hpp
-/home/mp4d/git/BRAM-uio-driver/src/bram_uio.hpp
+/home/mp4d/git/NN_FPGA_acceleration/src/bram_uio.hpp
 iostream
 -
 string
@@ -26,7 +26,7 @@ sys/types.h
 dirent.h
 -
 
-/home/mp4d/git/BRAM-uio-driver/src/bram_uio.hpp
+/home/mp4d/git/NN_FPGA_acceleration/src/bram_uio.hpp
 stdint.h
 -
 assert.h

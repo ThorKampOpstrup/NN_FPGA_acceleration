@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mp4d/git/BRAM-uio-driver/nn_test.cpp" "/home/mp4d/git/BRAM-uio-driver/CMakeFiles/nn_test.dir/nn_test.cpp.o"
-  "/home/mp4d/git/BRAM-uio-driver/src/bram_uio.cpp" "/home/mp4d/git/BRAM-uio-driver/CMakeFiles/nn_test.dir/src/bram_uio.cpp.o"
+  "/home/mp4d/git/NN_FPGA_acceleration/nn_test.cpp" "/home/mp4d/git/NN_FPGA_acceleration/CMakeFiles/nn_test.dir/nn_test.cpp.o"
+  "/home/mp4d/git/NN_FPGA_acceleration/src/bram_uio.cpp" "/home/mp4d/git/NN_FPGA_acceleration/CMakeFiles/nn_test.dir/src/bram_uio.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

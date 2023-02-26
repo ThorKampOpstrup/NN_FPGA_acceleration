@@ -1,2 +1,2 @@
-# BRAM-uio-driver
-UIO Linux driver for AXI BRAM
+# test of implementet NN without ROS
+
